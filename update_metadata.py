@@ -5,10 +5,10 @@ import os
 from mutagen.flac import FLAC
 
 # Full path to your CSV file
-csv_file = r'C:\Users\Quentin\Documents\CSV\sample_descriptions.csv'
+csv_file = r'C:\path\to\csv'
 
 # Master directory containing your FLAC audio files and subfolders
-master_directory = r'C:\Users\Quentin\MusicProduction\FLACSamples'
+master_directory = r'C:\your\sample\library'
 
 # Create a dictionary to store sample names and descriptions
 sample_dict = {}
