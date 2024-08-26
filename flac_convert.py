@@ -5,8 +5,8 @@ from pydub import AudioSegment
 from tqdm import tqdm
 
 # Define paths
-input_directory = r'C:\Users\Quentin\MusicProduction\Samples'
-output_directory = r'C:\Users\Quentin\MusicProduction\FLACSamples'
+input_directory = r'C:\your\sample\library'
+output_directory = r'C:\your\new\flac\library'
 supported_formats = ('.wav', '.mp3', '.ogg', '.aiff', '.flv', '.mp4', '.wma')
 
 # set compression levels 0-8
